@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Laila Moudrik</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Laila Moudrik</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <main class="contact-section">
+    <h1>📬 Me contacter</h1>
+    <p>Je suis disponible pour toute opportunité d’emploi, mission ou collaboration professionnelle. N’hésitez pas à me laisser un message.</p>
+
+    <!-- FORMULAIRE DE CONTACT -->
+    <form class="contact-form" action="https://formspree.io/f/xgvzynwl" method="POST">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="_replyto" placeholder="Votre email" required>
+
+      <label for="subject">Sujet :</label>
+      <input type="text" id="subject" name="subject" placeholder="Objet du message">
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- INFORMATIONS DE CONTACT -->
+    <section class="contact-info">
+      <h2>📌 Mes coordonnées</h2>
+      <ul>
+        <li><strong>Email :</strong> <a href="mailto:leylamoudrik@gmail.com">leylamoudrik@gmail.com</a></li>
+        <li><strong>Adresse :</strong> Salé / Rabat - Maroc</li>
+        <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/laila-moudrik-6b0191278/" target="_blank">Mon profil</a></li>
+        <li><strong>GitHub :</strong> <a href="https://github.com/LMoudrik" target="_blank">Mon GitHub</a></li>
+        <li><strong>CV (FR) :</strong> <a href="cv/Laila_Moudrik_CV_FR.pdf" download>Télécharger en Français</a></li>
+        <li><strong>CV (EN) :</strong> <a href="cv/Laila_Moudrik_CV_EN.pdf" download>Télécharger en Anglais</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Laila Moudrik</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
